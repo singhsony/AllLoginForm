@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign-Up</title>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Cinzel+Decorative:700'
+rel='stylesheet' type='text/css'>
+<link href='style.css' rel='stylesheet' type='text/css'>
+<link href='styleSignup.css' rel='stylesheet' type='text/css'>
+<meta type="viewport" content="type=content-type">
+
+</head>
+<body>
+<header>
+<h1>Signiwis</h1>
+<a href="index.html"> <input type='button' value='Homepage' class='Homepage'></a>
+
+</header>
+<main>
+<form name='f1' action='#' method='get' onsubmit='return validate();'>
+<div>
+<label for='name'>Name : </label>
+<input type='text' id='name' name='user_name'>
+</div>
+<div>
+<label for='email'>Email-Id:</label>
+<input type='text' id='email' name='user_email'>
+</div>
+<div>
+<label for='pwd'>Password:</label>
+<input type='password' id='pwd' name='user_password'>
+</div>
+<div>
+<label for='cpwd'>Confirm Password:</label>
+<input type='password' id='cpwd' name='user_cpassword'>
+</div>
+<div>
+<label for='mobile'>Mobile No.:</label>
+<input type='type' value="+91" style="width:55px;" readonly><input type='type'
+maxlength="10" id='mobile'  style="width:245px;" name='user_mobile' >
+</div>
+<div id='div1'>
+<label for='city'>City:</label>
+<select id='city' name='user_city'>
+<option value=''>--Choose the city--</option>
+<option value='Delhi'>Delhi</option>
+
+<option value='Mumbai'>Mumbai</option>
+<option value='Bangalore'>Bangalore</option>
+<option value='Kolkata'>Kolkata</option>
+</select>
+
+<div>
+<label for='cbox'>Others:</label>
+<input type="checkbox" id="cboxa" name='cbox' class="checkbox">
+</div>
+</div>
+
+<div>
+<label for='file'>Upload:</label>
+<input type='file' name='upload' value="Upload" id='file'
+accept="application/pdf,image/*,application/msword,text/plain" multiple>
+</div>
+<div class="termsbox" >
+<input type="checkbox" name="terms" class="checkbox" id='c2'>
+<label for='terms' class="terms"  id='terms'>I accept the <u>Terms and Conditions</u></label>
+</div>
+<div class="button">
+<button type='submit' name='submit' id='submit'> Sign-Up </button>
+</div>
+
+</form>
+</main>
+<footer>
+<p>This fake website example is CC0 — any part of this code may be reused in any way you wish.
+Original example written by Chris Mills, 2016.</p>
+
+<p><a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a> by Lorc.</p>
+</footer>
+<script src='validation.js' type='text/javascript'></script>
+</body>
+</html>

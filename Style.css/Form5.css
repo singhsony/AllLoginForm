@@ -1,0 +1,48 @@
+body{
+    
+    background-image: url("../imgg/Grey_img.jpg");
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+
+}
+.Box{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    width: 400px;
+    padding: 40px;
+    box-shadow: 0 15px 25px rgb(16, 36, 94);
+    background:rgba(200, 210, 214 0.3);
+    border-radius: 3px;
+}
+.Box h1{
+    color: #03A9F4;
+    font-size: 250%;
+    text-align: center;
+    
+}
+.Box .inputbox{
+    position: relative;
+}
+.Box .inputbox input{
+    width: 80%;
+    padding:8px;
+    border:none;
+    border-bottom:3px solid #03A9F4;
+    margin-bottom:15px;
+    background:transparent;
+    outline:none;
+    
+     
+}
+.inputbutton{
+    background: #03A9F4;
+    padding: 9px;
+    outline: none;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+}

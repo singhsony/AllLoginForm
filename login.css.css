@@ -1,0 +1,67 @@
+body {
+    margin:0px;
+    padding:0px;
+    background-image: url("../imgg/Grey_img.jpg");
+    background-size:cover;
+ }
+ .Box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:rgba(224, 226, 228, 0.664);
+    width: 300px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(191, 184, 184);
+    border-radius: 5px;
+    
+ }
+ .Box h1{
+    text-align:center;
+    padding:0px;
+    color:#e8195f;
+    margin: 0 0 30px;
+    font-size:60px;
+ }
+ .Box .inputBox{
+    position:relative;
+ }
+ .Box .inputBox input{
+    width:100%;
+    padding:10px 0;
+    font-size:15px;
+    color:#2c2727;
+    margin-bottom:10px;
+    border:none;
+    border-bottom:2px solid #e8195f;
+    outline:none;
+      background: transparent;
+      
+ 
+ }
+ .Box .inputBox label{
+    color:#5a595e;
+    top:0;
+    left:0;
+    font-size:16px;
+    padding:10px 0;
+    
+ 
+ }
+ 
+ .inputButton {
+    background-color:#d51435;
+    color:white;
+    width:40%;
+    padding:5px;
+    border:none;
+    cursor:pointer;
+    border-radius:3px;
+    margin-left:27%;
+ 
+ 
+ 
+ }
+ 
+ 

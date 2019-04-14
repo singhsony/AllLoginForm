@@ -1,0 +1,53 @@
+body{
+    background-image: url("../imgg/ice_age.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+.simple-form{
+    text-align: center;
+    margin: 100px 400px;
+}
+#registration{
+   
+    width:100%;
+    background-color: black;
+    
+    opacity:0.8;
+    padding:50px 0px; 
+}
+.button{
+    width: 250px;
+    padding: 10px;
+    border-radius:5px;
+    outline: 0px;
+    box-shadow:2px 2px 2px 2px #fd1f0f;
+}
+#ph{
+    width: 50px;
+    padding: 10px;
+    border-radius:5px;
+    outline: 0px;
+    box-shadow:2px 2px 2px 2px #fd1f0f
+}
+#phone{
+    width: 200px;
+    padding: 10px;
+    border-radius:5px;
+    outline: 0px;
+    box-shadow:2px 2px 2px 2px #fd1f0f
+
+}
+#sub
+{
+    width: 250px;
+    padding: 10px;
+    border-radius:5px;
+    outline: 0px;
+    background-color: darkcyan;
+    font-size: 18px;
+    box-shadow:2px 2px 2px 2px #fd1f0f
+}
+
+.ml{
+    color: white !important;
+}
